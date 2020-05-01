@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My square</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email_address">email address</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="login_name">Name</string>
+    <string name="login_password">Password</string>
+    <string name="login2">Login</string>
+    <string name="my_square">My Square</string>
+
+    <string name="todo">TODO</string>
+    <string name="enail_addresss">Email addresss</string>
+    <string name="don_t_have_an_account">don\'t have an account?</string>
+    <string name="profilename">TextView</string>
+    <string name="profileemail">TextView</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="add_contact">Add contact</string>
+    <string name="cname">name</string>
+    <string name="phone_number">phone number</string>
+    <string name="description">Description</string>
+    <string name="phone_2_optional">phone 2 (optional)</string>
+    <string name="save">Save</string>
+    <string name="todo5">TODO</string>
+</resources>

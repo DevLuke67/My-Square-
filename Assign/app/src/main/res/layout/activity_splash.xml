@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    tools:context=".Splash" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="151dp"
+        android:layout_height="43dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/my_square"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <ProgressBar
+        android:indeterminateDrawable="@drawable/progress"
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar"
+        android:layout_width="49dp"
+        android:layout_height="30dp"
+        android:scrollbarStyle="outsideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="176dp"
+        android:layout_height="134dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/square" />
+</androidx.constraintlayout.widget.ConstraintLayout>

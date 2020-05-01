@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/contactwall"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="227dp"
+        android:layout_height="137dp"
+        android:contentDescription="@string/todo5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077"
+        app:srcCompat="@drawable/contactid" />
+
+    <EditText
+        android:drawableStart="@drawable/ic_perm_contact_calendar_black_24dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/contactname"
+        android:layout_width="244dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="33dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/cname"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <EditText
+        android:id="@+id/contactphone1"
+        android:layout_width="242dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="31dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <EditText
+        android:id="@+id/contactphone2"
+        android:layout_width="241dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="24dp"
+        android:drawableStart="@drawable/ic_phone_paused_black_24dp"
+        android:ems="10"
+        android:hint="@string/phone_2_optional"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <EditText
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:id="@+id/contactdescription"
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/description"
+        android:ems="10"
+        android:hint="@string/description"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <Button
+        android:id="@+id/contactsave"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:background="@drawable/contactsave"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.903" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
